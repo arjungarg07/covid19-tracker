@@ -14,3 +14,18 @@ body {
     align-items: center;
     
 }
+
+.img {
+    width: 370 px;
+    margin-top: 50px;
+}
+
+@media (max-width: 770px) {
+    .container{
+        margin:  0 10%;
+    }
+    
+    .img{
+        width:100%;
+    }
+}
